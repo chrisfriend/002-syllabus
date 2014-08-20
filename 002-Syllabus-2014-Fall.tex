@@ -1,0 +1,428 @@
+\documentclass[11pt,oneside]{amsart}	%defines this as an article
+\usepackage{chrisfriend-comp} %provides formatting declarations for page, headers, figures, textcolor, comments, and bibliographic styles
+\usepackage{chrisfriend-OTF-support} %provides support for OTF system fonts; incompatible with latex, rtf2latex, & ht4latex
+%\usepackage[utf8]{inputenc} %support for smallamp?
+
+%\usepackage{tabularx}
+\usepackage{tabulary} % allows for the tables I make rubrics with
+%\usepackage{supertabular}
+\usepackage{xtab} % allows tables to span pages
+\usepackage{booktabs} % allows fancy lines in tables
+%\usepackage{rotating} % allows landscape tables
+\usepackage{lscape} % allows rotated longtables
+\usepackage{multirow} % allows rowspanning
+\usepackage{enumitem} % helps with the overview
+%\usepackage{paralist}
+\usepackage[nodate]{datetime} % allows the \currenttime command; nodate tells it not to mess up date settings
+     \usepackage{pdflscape} % turns landscape pages sideways in PDFs; avoids kinks in neck.
+\usepackage{tagging} % Allows conditional text inclusion; see http://www.ctan.org/tex-archive/macros/latex/contrib/tagging
+%\usepackage{draftwatermark}
+
+\usepackage{acronym}
+\acrodef{slu}[\textsc{slu}]{Saint Leo University}
+\acrodef{phrg}[\textsc{phrg}]{Prentice Hall Reference Guide}
+\acrodef{awr}[\textsc{awr}]{The Academic Writing Reader}
+\acrodef{121}[\textsc{eng~121}]{Academic Writing}
+\acrodef{rr}[\textsc{rr}]{Reading Response}
+\acrodef{lrc}[\textsc{lrc}]{Learning Resource Center}
+
+
+%%%%%%%%%% Adjust for multiple classes
+% 
+% Use this line to specify section number:
+
+\usetag{ca01} % Fall 2014 is ca09, ca10, and ca14 for eng 121; ca01 for 002
+
+% Use structure inside this comment environment to prepare multiple versions of text:
+%
+% \begin{taggedblock}{ca09}
+%	content here for section ca09 only
+% \end{taggedblock}
+%
+% or for one-liners:
+%
+% \tagged{ca09}{text for ca09 only}
+%
+%%%%%%%%%%%%% End multiple Versions content
+
+\title[\textsc{eng}~002 Syllabus]{Course Syllabus: Basic Composition Skills}
+\chead{\scriptsize{\fontspec[Numbers=Lining]{ITC Berkeley Oldstyle Std}\MakeUppercase{ENG~002 Syllabus} }}%(Rev. \number\day\space\monthname\space\number\year)}}
+
+  
+\begin{document}
+%\bibliographystyle{abbrv}
+
+\vspace{-2in}
+\begin{center}
+\huge
+\includegraphics[height=2\baselineskip]{leo-logo.pdf}
+
+\textbf{Course Syllabus: Basic Composition Skills}
+\end{center}
+ 
+
+\label{sec:about_the_course}
+\vspace{1.5\baselineskip}
+\begin{center}
+\begin{minipage}{0.75\textwidth}
+%	|\hfill|
+	\begin{description}[align=right, labelwidth=*, labelindent=0.9in, leftmargin=1in]
+	\item[Course Section] \tagged{ca01}{\textsc{eng 002.ca01}}
+	\item[Meeting]
+		\tagged{ca01}{\textsc{mwf} 15:30--14:20, Lewis Hall, room 113}
+	\item[Prerequisite] None
+	\item[Term] Fall 2014
+	\item [Credit Hours] 3
+	\vspace{.5\baselineskip}
+	\item[Professor] Chris Friend
+	\item[Email] \href{mailto:christopher.friend@saintleo.edu}{christopher.friend@saintleo.edu}
+	\item[Office] Saint Edward Hall 238
+	\item[Office Hours] \textsc{mf} 14:00--15:00 and \textsc{tr} 13:00--15:00; appointments strongly recommended. Visit \href{http://friend.lattiss.com}{http://friend.lattiss.com} for availability.
+\end{description}
+\end{minipage}
+\end{center}
+\vspace{0.75\baselineskip}
+\thispagestyle{empty}
+
+%\section{Overview} % (fold)
+\section{Course Description from Catalog} % (fold)
+\label{sub:course_description}
+This course does not satisfy a \textsc{link} (General Education) requirement in English or an elective credit for an associate or bachelor’s degree. This course is designed to remedy the special problems of students whose English preparation reveals marked deficiencies in written skills.
+% section course_description (end)
+
+\section{Goal of the Course} % (fold)
+\label{sec:goal_of_the_course}
+Basic Composition Skills is designed to help students develop the writing skills they need to succeed in future college-level courses with heavy writing components, including \textsc{eng} 121. It builds upon the foundation of writing instruction provided in high-school classes and enhance it with a focus specifically on college-level writing and Saint Leo's culture.
+
+% section goal_of_the_course (end)
+
+% section about_the_course (end)
+\section{Student Learning Outcomes}\label{outcomes}
+Through successful completion of this course and its activities, you should be able to
+\begin{itemize}
+	\item Expand and improve your vocabulary.
+	\item Demonstrate at least minimal college-level skills in spelling, punctuation, and grammar.
+	\item Write grammatical sentences and cohesive paragraphs.
+	\item Create a coherent, thorough piece of writing with appropriate structure and scope.
+	\item Develop college-level reading, critical thinking, and problem-solving skills.
+\end{itemize}
+
+\section{Key Core Values} % (fold)
+\label{sec:key_core_values}
+Although all six of \ac{slu}'s core values should be evident in the daily operation of our class and in every assignment you complete, the School of Arts \& Sciences has chosen two as the key core values for this course.
+\begin{description}
+	\item [Integrity] The \ac{slu} commitment to excellence ``demands that its members live its mission and deliver on its promise. The faculty, staff, and students pledge to be honest, just, and consistent in word and deed.'' We will demonstrate integrity by presenting our own work genuinely and our ideas honestly, both in discussion and in writing.
+	\item [Respect] At \ac{slu}, ``we value all individuals' unique talents, respect their dignity, and strive to foster their commitment to excellence in our work. Our community's strength depends on the unity and diversity of our people; on the free exchange of ideas; and on learning, living, and working harmoniously.'' We will demonstrate respect in our dealings with others, including our peers with us in class and the authors whose work inspires or informs our discussion and writing.
+\end{description}
+% section key_core_values (end)
+
+%\clearpage
+\section{Materials for Class}
+\begin{itemize}
+	\item Required
+		\begin{enumerate}
+		\item \citeauthor{biays:2004aa}, \citetitle{biays:2004aa}, Sixth Edition (\textsc{isbn} 978-0-205-11013-1)
+		\item Pearson Education, \emph{MyWritingLab} access code (\textsc{isbn} 978-0-321-42869-1) [Can be purchased in a package, with the textbook, as \textsc{isbn} 978-0-321-84150-6.]
+		\item Reliable connection to the Internet outside of class. Make a plan for what you will do/use if your device or connection dies.
+		\item Automated, reliable backup system. Every semester, I have a student who loses everything due to a hard drive failure. Don't be that student.
+		\item Regular access to your \href{http://outlook.com/saintleo.edu}{student email account}. I check my email multiple times per day and will almost always reply within one business day. You should to check yours \emph{at least} once per day, but definitely before each class meeting. (Why not \href{http://www.saintleo.edu/media/216502/directions_for_setting_up_student_email_access.pdf}{set it up on your phone}?)
+	\end{enumerate}
+	\item Recommended
+	\begin{enumerate}
+		\item A Google account associate with your \ac{slu} email address. We will use this account for collaborative writing and to make document submission simpler. We will set this up on the second day of class.
+		%\item Dropbox account into which you store all your work. This takes care of backups.
+		\item Your own computer running a full (non-mobile) operating system. Some of the work we do is much simpler with new software and the ability to run multiple programs simultaneously. Phones are too limited, and tablets can get frustrating. (Campus computer labs can work in a pinch.)
+	\end{enumerate}
+\end{itemize}
+
+\section{Grading \& Assessment}
+Your grade in this course will be based on two holistic grades listed in Table~\ref{tab:assignments}. Think of these like grades for a semester-long project: the components work together to build the overall value of the whole, which will be graded in this course. You will get consistent feedback throughout the semester to help ensure you are on-track for a successful grade. Additionally, each major assignment will have a specific assessment rubric, and every smaller assignment will have detailed completion guidelines.  The smaller assignments count toward process and are designed to help you build skills and confidence as you work toward your final portfolio. They should not be dismissed.
+
+	Please note the following distinctive characteristics about grading in this course:
+\begin{itemize}
+	\item You can earn a D for an assignment or major component, but you cannot earn a D for this course. To pass, you must earn at least a C, or 70 points.
+	\item Unlike most courses at \ac{slu}, grades for this course are on the 10-point scale, with no +/- grades available. This is reflected in Table~\ref{tab:final-grades}.
+\end{itemize}
+
+\begin{figure}[t]
+	\centering
+	\subtable[Grade Calculations]{\small
+		\noindent\begin{tabulary}{0.25\textwidth}{lr}
+		\toprule
+		\textbf{\textsc{Grade}} & \textbf{\textsc{Min.\ Points}}\\
+		\midrule
+			A	&	90	\\
+			B	&	80	\\
+			C	&	70	\\
+%\addlinespace
+%\midrule
+			F	&	<70	\\
+		\bottomrule
+		\end{tabulary}\label{tab:final-grades}
+	} %subtable
+	\quad % Middle gap spacing
+	\subtable[Grade Distribution]{\small
+		\noindent\begin{tabulary}{\textwidth}{Lr}
+			\toprule\textbf{\textsc{Component}} & \textbf{\textsc{Points}}\\
+				\midrule	Products (essays \& other portfolio contents)	&	50	\\
+%				\midrule	Academic Research Report	&	25	\\
+%				\midrule	Genre Product \& Presentation	&	25	\\
+					Process (participation, exercises, etc.)	&	50	\\
+				\midrule	\textbf{\textsc{Total}}	& \textbf{\textsc{100}}\\
+			\bottomrule
+		\end{tabulary}\label{tab:assignments}
+	} %subtable
+	\caption{Course Grading System}
+\end{figure}
+
+\subsection{Grading Standards} % (fold)
+\label{sub:grading_standards}
+Participation in all activities, and successful completion of all assignments (as defined by each assignment's assessment rubric) will earn you a passing grade of C, indicating that you have achieved the expected outcomes of the course. If you do not take part in all assignments and activities, you should not expect a passing grade in the course. If the quality of your work or your participation falls below acceptable standards (i.e. if you are heading for failure), I will be sure to let you know. Along more optimistic lines, grades of B or A are used for work that is good and excellent, respectively, surpassing the basic expectations. Assignment sheets will suggest ways to exceed those expectations, so you won't have to guess. If your performance exceeds basic standards, I will be sure to let you know.
+
+%Besides participation, all grades for this course come from products turned in at the end of the semester (see Table~\ref{tab:assignments}). This is by design, to allow you the chance to experiment and take risks as you progress through the course. If your research leads you down a dead-end, your grade will not be affected. In lieu of grades, you will receive regular feedback from your peers and instructor about what is and isn't working well with your research and various written products. Take the feedback seriously, and revise your work regularly throughout the semester so that your final portfolio best reflects your ability.
+
+% subsection grading_standards (end)
+
+
+
+\subsection{Expectations} % (fold)
+\label{sub:expectations}
+
+While enrolled in this course, you can expect these things from me:\footnote{The structure and approach of the Expectations section is adapted from the \href{http://www.ceball.com/classes/239/spring09/?page_id=8}{English 239 syllabus} of Cheryl E. Ball, \textsc{isu}.}
+\begin{itemize}
+	\item enthusiasm for learning, teaching, and writing;
+	\item clarity and thoroughness in assignments, goals, and expectations;
+	\item personal interest in your learning and work;
+	\item flexibility, allowing you the freedom to be creative with the products you create for this course;
+	\item critical feedback to help you improve your thinking and writing; and
+	\item preparation to ensure a beneficial and productive semester.
+\end{itemize}
+If at any point you feel I am failing to meet any of those expectations, please let me know. Your feedback is the best way I can learn how to improve my teaching.
+
+As we progress through the semester, your peers and I will expect these things from you:
+\begin{itemize}
+	\item consistent and active participation in class activities, including peer review assignments;
+	\item informed contributions, based on sufficient preparation and consideration (i.e. doing the readings and research)
+	\item an open mind, tolerant and curious about differences of opinion; and
+	\item honest and polite commentary and feedback that helps your peers improve their work.
+\end{itemize}
+
+During class discussions and as you work on your assignments, keep in mind that I value these things in my students:
+\begin{itemize}
+	\item thought-out and supported opinions;
+	\item willingness to take risks and try new approaches to solving problems, as risks often create the greatest opportunities;
+	\item creativity in how you respond to the challenges created and faced by this course; and
+	\item excellence in your work, showing the best you can produce.
+\end{itemize}
+
+% subsection expectations (end)
+
+
+
+\section{Course Contents} % (fold)
+\label{sec:course_contents}
+
+The first day of class will involve discussion about how students think our semester together could be used to help them improve and succeed in college writing. In general, this class will consist of discussing and writing your ideas, reading the writing of others, and revising your writing to improve its effectiveness for various uses. 
+
+While some of the work we do this semester will be aimed toward traditional, generic, for-the-teacher-only essays, I will try to help aim your writing beyond my desk. We should be able to create more practical audiences for your writing, making it easier to know when your work achieves its intended goal.
+
+Because we will work together to evaluate one another's writing, and because we are interested in a diverse range of perspectives, your active participation in class discussions is the most essential component of a successful semester. This importance is reflected in the grading system used for this course.
+
+The information in Table~\ref{tab:overview} (detailed in the \nameref{sec:calendar}) are suggestions, presented in a suggested order. We will discuss, debate, and decide how the class will actually flow as we progress. At the very least, you should expect to regularly complete exercises from the textbook and the online MyWritingLab system that are targeted toward specific trouble spots that develop during the semester. Because I have to plan the course before I know how you write, these details cannot effectively be ``set in stone'' until the course is underway.
+
+\begin{table}[b]
+\caption{Assignment Overview}\label{tab:overview}
+	\begin{tabulary}{.85\textwidth}{cLL}
+		\toprule	\textbf{\textsc{Weeks}}	&	\textbf{\textsc{Unit}}		&	%	\textbf{\textsc{Readings}}	&	\textbf{\textsc{Minor Assignments}}	&	
+		\textbf{\textsc{Major Products}}	\\
+
+
+\midrule	1--2	&	Setting Goals		&	Writing samples, list of potential topics, semester goal statements, analyses of other syllabi	\\
+\midrule	3--5	&	Organizing Paragraphs		&	3 revised ¶s, notes handout for selected textbook chapter	\\
+\midrule	6--11	&	Drafting an Essay		&	2 Essays, list of social issues, 2 memos	\\
+\midrule	12--14	&	\mbox{Incorporating} Research		&	Sample ¶, revised essay	\\
+\midrule	15	&	Portfolios		&	2 polished essays, ≥3 polished ¶s, cover letter	\\
+	\bottomrule
+	\end{tabulary}
+\end{table}
+
+
+% section course_contents (end)
+
+ 
+
+\section{Policies}
+%\nocite{Curtis:2009uq,Tripp:2009kx,Wardle:2010fk} %ensures the syllabi I stole from will be in the Works Consulted list
+
+\subsection{Participation}
+Your attendance is mandatory, and your success in this course depends on your active engagement.  If you are absent more than three times, your final grade will be reduced by one letter grade per additional day missed; therefore, after three absences, I recommend that you drop the class. If you are absent more than five times, you risk failing the course.  If you must be absent, it is \emph{your} responsibility to complete the day's activities and contact your peers to determine what you missed and how you need to recover. Any absence will cause you to forfeit credit for any participation or activities for those days.
+
+Absences due to university-sponsored events---such as music performances, athletic competitions, debates, and some conferences---can excuse you from certain minor assignments (but not major papers). When participating in school-sponsored events, get the appropriate form from the organization sponsor and submit it to your instructor before you miss class. Absences due to religious holidays not observed by the university should be discussed with the instructor during the first week of the semester.
+
+Please note these details: 
+\begin{enumerate}
+	\item Major assignments will be submitted online, so attendance (or lack thereof) does not affect your ability to submit work. You are still expected to turn in your work regardless of whether you are in class that day.
+	\item For the purposes of this attendance policy, arriving tardy to class twice equals one absence.
+	\item I do not distinguish between ``excused'' and ``unexcused'' absences. If you are not in class, we cannot benefit from your participation, and you are absent. I consider university-sponsored events (mentioned in the paragraph above) the equivalent of attendance.
+\end{enumerate}
+
+Treat participation in class activities (including discussions, peer review assignments, etc.) as evidence of attending to the course. I expect complete participation on all assignments from each student. We all know that the most boring classes are the ones where the instructor does all the talking. Don't let that become the case here. Share your thinking, provide your opinion, and join in the work. When in doubt, speak your mind---it's the only way your peers and your instructor will know what you're thinking, and the only way we can compliment, complement, or correct, as appropriate.
+
+\subsection{Late and Make-Up Work} % (fold)
+\label{sub:late_and_make_up_work}
+Major writing assignments will be submitted online, and computers are good at treating deadlines as absolutes. You will not be able to submit work late; I expect that you will be prepared. Minor activities done in class are designed to take advantage of the live interactions of all students and cannot be meaningfully ``made up'' after the class has ended; therefore, there is no make-up work in this class.
+% subsection late_and_make_up_work (end)
+
+\subsection{Etiquette}
+In short, the members of this class, both the instructor and the students, are expected to behave courteously and professionally in all interactions.  Under that umbrella statement, the following general guidelines should inform your participation.
+	\begin{description}
+	\item[Tolerance] Many of our discussions will be driven by opinions and based on challenging material.  Since we are all writers, everyone in class will have personal experiences and viewpoints that can contribute meaning to the conversations.  All participants are expected to treat others with dignity and respect and are expected to refrain from insensitive comments, including racist, ageist, sexist, classist, homophobic, or other disparaging and unwarranted views.
+	\item[Timeliness] Students are expected to be ready for class at its designated time just as much as you expect the instructor to dismiss class by the designated time.  Should you arrive to class late for any reason, please do so with a minimum level of disruption.  If you need to leave class early for any reason, please notify the instructor in advance and be as non-disruptive as possible when leaving.
+	\item[Phones] As a courtesy, all phones should be silenced during this or any other class. Should your phone accidentally create a distraction during class, you should take action to eliminate the distraction without adding to it.
+	\item[Computers] You will need to use your computer in class regularly to collaborate with others and complete your assignments. Having the discipline of shutting off distractions (such as Facebook, chat applications, etc.) improves your ability to focus and participate meaningfully.
+	\item[Messages] Grammar, spelling, and punctuation reflect the formality of the situation in which they appear.  Keep in mind that emails and discussion posts you write for this class are being read by an English teacher in a composition course.  Though I don't expect discussion posts to be perfectly error-free (they're not that important), I do expect you to treat written language with respect. Complete sentences and full words (``you'' instead of ``u'') are always a good idea, even if the intended audience is your peers.
+	\item[Email] As \iac{slu} student, you have access to a student email account, which will be the primary method of communication for course-related announcements and information. Your instructor generally replies to messages within 24 hours Sunday through Thursday; messages sent on Fridays or Saturdays might get a delayed response.
+	\end{description}
+	
+
+\subsection{Computer Reliability}\label{sub:reliability}
+Save everything, and save often.  Computer problems are regular part of life, and I expect you to prepare for them rather than use them as an excuse for late work. Every semester, your instructor has students sustain a complete hard drive failure, losing all their work. Such failures are unavoidable, but losing data is not, if you plan ahead. Working backups and protection from Windows viruses are essential to avoid the most common catastrophes.  A free Dropbox account (\href{http://db.tt/mzWxY8s}{http://dropbox.com}) provides convenient and automatic backups, allows you to access your files from any networked computer in case disaster befalls yours, and preserves old versions of files so that if a file is deleted or altered, a previous copy can be restored. Regardless of the solution you choose, know how you will keep moving if your computer fails.
+
+\subsection{Honor Code} % (fold)
+\label{sub:honor_code}
+Saint Leo University holds all students to the highest standards of honesty and personal integrity in every phase of their academic life. All students have a responsibility to uphold the Academic Honor Code by refraining from any form of academic misconduct, presenting only work that is genuinely their own, and reporting any observed instance of academic dishonesty to a faculty member.
+
+Complete details can be found in the full \href{http://www.saintleo.edu/media/626793/academic_honor_code_policy.pdf}{\ac{slu} Academic Honor Code}, from which the above paragraph was excerpted. Additionally, \ac{slu}'s \href{http://www.saintleo.edu/about/florida-catholic-university.aspx}{Core Values} include Integrity, by which we ``pledge to be honest, just, and consistent in word and deed.''
+% subsection honor_code (end)
+
+\subsection{Commitment to Academic Excellence} % (fold)
+\label{sub:commitment_to_academic_excellence}
+Academic excellence is reflected by balance and growth in mind, body, and spirit that develops a more effective and creative culture for students, faculty, and staff. It promotes integrity, honesty, personal responsibility, fairness, and collaboration at all levels of the university. At the level of students, excellence means achieving mastery of the specific intellectual content, critical thinking, and practical skills that develop reflective, globally conscious, and informed citizens ready to meet the challenges of a complex world.
+% subsection commitment_to_academic_excellence (end)
+
+
+\subsection{Instructor's Research} % (fold)
+\label{sub:instructor_s_research}
+For the purposes of conducting research or improving his teaching practices, your instructor may use your work anonymously as an example in other classes, in workshops and lectures, or in publications. For example, I might quote from one of your assignments in a journal article or conference presentation, without revealing your identity. If you do \textbf{not} wish your work to be used in this manner, let me know in writing (via email is fine) within one week after the date your final grade is due. (This date is listed on \href{http://www.saintleo.edu/resources/academic-catalogs-schedules-calendars.aspx}{\ac{slu}'s Academic Calendar}.) Your course grade will not be affected by your decision to permit or deny my use of your work.\footnote{The ``Instructor's Research'' section is adapted from the syllabus of Beth Rapp-Young, \textsc{ucf}.}
+% subsection instructor_s_research (end)
+
+\section{Available Resources} % (fold)
+\label{sec:available_resources}
+\subsection{Libraries} % (fold)
+\label{sub:library_resources}
+You may find that libraries and their resources, both online and on-ground, come in handy for this course. You have a few options, including but not limited to, the below:
+
+\subsubsection{Daniel A.\ Cannon Memorial Library} % (fold)
+\label{ssub:cannon_memorial_library}
+Librarians are available in the University Campus library during reference hours to answer questions concerning research strategies, database searching, locating specific materials, and interlibrary loan (\textsc{ill}). Learn more about library services and check their hours by visiting their LibGuides page (\href{http://saintleo.libguides.com/calendar}{http://saintleo.libguides.com/calendar}) or search their catalog from their main page (\href{http://saintleo.edu/library}{http://saintleo.edu/library}).
+% subsubsection cannon_memorial_library (end)
+
+\subsubsection{Community Libraries} % (fold)
+\label{ssub:community_libraries}
+Almost all public library systems offer free borrowing privileges to local community members, as well as free access to their online databases, including access from your home.  The key is obtaining a library card.  Check with your local library to find out how to get a borrower’s card.  
+% subsubsection community_libraries (end)
+
+\subsubsection{The Library at \textsc{usf}} % (fold)
+\label{ssub:the_library_at_}
+University Campus students have borrowing privileges at the University of South Florida.  Be sure to bring a current Saint Leo student ID card and proof of current enrollment with you to borrow \textsc{usf} library books.
+% subsubsection the_library_at_ (end)
+
+% subsection library_resources (end)
+
+\subsection{Writing Resources on Campus} % (fold)
+\label{sub:writing_resources_on_campus}
+
+\subsubsection{Writing and Research Instruction at the Library} % (fold)
+\label{ssub:writing_and_research_instruction_at_the_library}
+The Cannon Memorial Library now offers instruction in writing and research to students of all levels, across the curriculum. Ángel L.\ Jiménez and John David Harding offer instruction on all aspects and stages of the writing process. Please make an appointment by visiting their website (\href{http://saintleolibrary.cloudaccess.net/research-writing-help.html}{http://saintleolibrary.cloudaccess.net /research-writing-help.html}).
+
+% subsubsection writing_and_research_instruction_at_the_library (end)
+
+\subsubsection{Learning Resource Center} % (fold)
+\label{ssub:learning_resource_center}
+The \ac{lrc} provides tutoring services for all \ac{slu} students.  The \ac{lrc} is located on the second floor of the Student Activities Building and appointments are available through \href{http://tutoring.saintleo.edu/TracWeb40/Default.html}{TutorTrac} or on a walk-in basis. When attending a session you will need to bring: course syllabus, course notes and materials presented in class, course textbook(s), and any questions you have for the tutor.  An English tutor will be able to help you:
+
+\begin{itemize}
+	\item Understand assignment requirements
+	\item Develop ideas; plan and organize your writing
+	\item Identify and address some key aspects of your writing for you to revise
+	\item Learn to cite and document sources
+	\item Practice strategies for proofreading and editing
+	\item Learn to correct errors in grammar, punctuation, and mechanics
+\end{itemize}
+
+% subsection writing_resources_on_campus (end)
+
+\subsection{Accommodations} % (fold)
+\label{sub:accommodations}
+Students with disabilities who need accommodations in this course must contact the instructor at the beginning of the semester to discuss needed accommodations. No accommodations will be provided until the student has both contacted the Office of Disability Services [Student Activities Building 207, phone \mbox{(352)~588-8464}, fax \mbox{(352)~588-8605}, or email \href{mailto:adaoffice@saintleo.edu}{adaoffice@saintleo.edu}] and contacted the instructor to discuss appropriate accommodations.
+
+More personally, I am dedicated to incorporating inclusive practices for all students within the classroom, as well as providing for specific accommodation requests. Beyond the provisions of the Office of Disability Services, please feel free to contact me with any suggestions and/or requests you have regarding the accessibility of information and/or interactions in this course. I am always interested in these types of suggestions, as they may not only meet a specific student's needs but could also be employed to make the overall class more accessible and inclusive for all students.\footnote{The second ¶ in the ``Accommodations'' section is adapted from the syllabus of Barbi Smyser-Fauble, \textsc{isu}.}
+
+% subsection accommodations (end)
+
+% section available_resources (end)
+
+%\begin{landscape}
+%\clearpage%\ \newpage
+%\addtocounter{page}{-2}
+\section{Course Calendar}
+\label{sec:calendar}
+{\centering %brace balanced at end of calendar
+%\vspace{-1in}
+\tablehead{\toprule\textbf{\textsc{Unit}} & \textbf{\textsc{Week}} & \textbf{\textsc{Dates}} & \textbf{\textsc{Topics of Study}} & \textbf{\textsc{Primary Deliverable}}\\}
+\tablelasthead{\toprule\textbf{\textsc{Unit}} & \textbf{\textsc{Week}} & \textbf{\textsc{Date}} & \textbf{\textsc{Topics of Study}} & \textbf{\textsc{Primary Deliverable}}\\}
+\begin{mpxtabular}{>{\bfseries}p{0.73in}ccp{1.7in}p{1.7in}} % for portrait
+%\begin{xtabular}{>{\bfseries}lccp{2.25in}p{3.25in}} % for landscape
+%	\toprule\textbf{\textsc{Topic(s)}} & \textbf{\textsc{Week}} &\textbf{\textsc{Class Discussion}} & \textbf{\textsc{Readings/Homework}}\\
+
+%%%%%%%%%%%%%%%%%%%%%%% Material below pasted from Numbers. Make edits there, not here.
+
+
+
+\midrule	Setting Goals	&	1	&	26--29 Aug	&	Plan the semester; see how this class can support writing in other courses	&	Writing samples; syllabus analyses			\\
+\cmidrule(l){2-5}		&	2	&	01--05 Sept	&	Setting ¶ goals (Ch 1); “Topics for Critical Thinking and Writing”	&	List of potential writing topics; goal statement	\newline\textbf{	Add/Drop Deadline Monday	}\\
+\midrule	Organizing Paragraphs	&	3	&	08--12 Sept	&	Classification (Ch 7)	&	Classification ¶; revision of goal statement			\\
+\cmidrule(l){2-5}		&	4	&	15--19 Sept	&	Argument (Ch 10)	&	Argument ¶; revision of Classification ¶			\\
+\cmidrule(l){2-5}		&	5	&	22--26 Sept	&	Your group’s choice of ¶ type (Chs 2--6, 8, or 9)	&	Review handout w/ sample ¶; revision of Argument ¶			\\
+\midrule	Drafting an Essay	&	6	&	29 Sept - 03 Oct	&	Drafting an essay (Ch 11)	&	Essay 1 draft; explanation of ¶-type decisions			\\
+\cmidrule(l){2-5}		&	7	&	06--10 Oct	&	Revising an essay	&	Essay 1 final w/ comments from tutor	\newline\textbf{	Essay 1 Due	}\\
+\cmidrule(l){2-5}		&	8	&	13--17 Oct	&	Reflection; social issues	&	Course status memo; list of potential social issues	\newline\textbf{	Midterm Grades	}\\
+\cmidrule(l){2-5}		&	9	&	20--24 Oct	&	Multipattern essays (p 345); setting essay goals	&	Essay 2 planning ¶			\\
+\cmidrule(l){2-5}		&	10	&	27--31 Oct	&	Argument essays (pp 338--45)	&	Revision of planning ¶			\\
+\cmidrule(l){2-5}		&	11	&	03--07 Nov	&	Drafting essay 2	&	Essay 2 draft; explanation of ¶-type decisions	\newline\textbf{	Registration for Spring begins Monday	}\\
+\midrule	Incorporating Research	&	12	&	10--14 Nov	&	Incorporating Research (Ch 14); secondary audiences	&	List of research sources; list of potential audiences/venues	\newline\textbf{	Non-failing Withdraw deadline Monday	}\\
+\cmidrule(l){2-5}		&	13	&	17--21 Nov	&	Gathering sources; incorporating quotes	&	Source-integration demo ¶			\\
+\cmidrule(l){3-5}		&		&	24--28 Nov	&\multicolumn{2}{c}{\textbf{	Thanksgiving Break---No Class		}}			\\
+\cmidrule(l){2-5}		&	14	&	01--05 Dec	&	Re-write Essay 2, strengthening with sources	&	Re-draft of Essay 2	\newline\textbf{	Re-written Essay 2 due Monday	}\\
+\midrule	Portfolios	&	15	&	08--12 Dec	&	Revise Essay 2; create portfolio	&	Essay 2 final w/ tutor comments; portfolio w/ cover letter	\newline\textbf{	Complete portfolio of writing due at beginning of exam period	}\\
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%% Material above pasted from Numbers. Make edits there, not here.
+ 
+	\bottomrule
+    \end{mpxtabular}
+} %matches the \footnotesize at top of calendar
+%    \end{center}
+
+\subsection{Changes}
+    Material in the preceding schedule is subject to change at the discretion of the instructor.  Students will be notified of any changes in class.  If relevant, changes will also be reflected in LearningStudio.
+
+\subsection{Final Exams} % (fold)
+\label{sub:final_exams}
+Because this class includes a portfolio that documents your progress over the semester, there is no final exam as such. However, we will meet for our exam period to share our work from the semester and practice oral presentation skills. Your exam will be held
+\tagged{ca01}{Fri, 12 Dec 2014, 15:20--17:20}.
+% subsection final_exams (end)
+  
+%    \end{landscape}
+
+ 
+\section{Work Cited}\label{works-con}
+\renewcommand\refname~{\vspace{-22pt}}
+
+\printbibliography
+
+
+\end{document}  
+
